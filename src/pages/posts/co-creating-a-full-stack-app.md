@@ -2,7 +2,7 @@
 title: "Co-creating an app with an AI software developer — Part I"
 pubDate: "2023-05-06"
 slug: "co-creating-a-full-stack-app"
-description: "In this article, I am going to show you."
+description: "In this article, I will show you how to use an AI helper to co-create a full-stack web app."
 hero: "/images/Banner1.png"
 tags: ["go"]
 layout: "../../layouts/BlogPostLayout.astro"
