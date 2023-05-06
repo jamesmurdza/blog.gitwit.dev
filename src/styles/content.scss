@@ -3,15 +3,11 @@
     @apply font-display font-extrabold leading-none;
     margin-bottom: 1em;
 
-    font-size: min(max(3rem, 6.25vw), 7rem);
-
-    @supports (font-size: clamp(3rem, 6.25vw, 7rem)) {
-      font-size: clamp(3rem, 6.25vw, 7rem);
-    }
+    @apply text-5xl
   }
 
   h2 {
-    @apply text-4xl font-bold leading-none mt-12 py-6 tracking-tight;
+    @apply text-3xl font-bold leading-none mt-12 py-6 tracking-tight;
   }
 
   h3 {
