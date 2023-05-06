@@ -9,9 +9,9 @@ interface MarkdownFrontmatter {
   date: number;
 }
 
-const title = 'Creek';
-const description = 'A Theme for Astro';
-const seoDescription = 'Creek is a theme for Astro static site generator';
+const title = 'GitWit';
+const description = 'Coding accelerated.';
+const seoDescription = 'Software development helpers that create code from natural language prompts.';
 
 const allPosts = await Astro.glob<MarkdownFrontmatter>('./posts/*.md');
 const sortedPosts = allPosts.sort((a, b) => new Date(b.frontmatter.pubDate).valueOf() - new Date(a.frontmatter.pubDate).valueOf());
@@ -23,7 +23,7 @@ const sortedPosts = allPosts.sort((a, b) => new Date(b.frontmatter.pubDate).valu
   <BaseHead title={title} description={seoDescription} />
 </head>
 
-<body class="bg-white text-black font-body leading-normal personality-casual">
+<body class="bg-white text-black font-body leading-normal">
   <Nav />
 
   <main class="py-12 lg:py-20">

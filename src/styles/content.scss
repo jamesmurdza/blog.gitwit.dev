@@ -1,6 +1,6 @@
 .content {
   h1 {
-    @apply font-display uppercase font-bold leading-none;
+    @apply font-display font-extrabold leading-none;
     margin-bottom: 1em;
 
     font-size: min(max(3rem, 6.25vw), 7rem);
