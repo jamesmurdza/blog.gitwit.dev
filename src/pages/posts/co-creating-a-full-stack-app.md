@@ -1,3 +1,9 @@
+---
+title: "Build and test an app with one AI prompt"
+pubDate: "2023-05-06"
+redirect: true
+---
+
 <html>
     <meta charset="utf-8">
     <title>Redirecting to { destination }</title>
