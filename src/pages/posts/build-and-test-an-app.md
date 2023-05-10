@@ -8,7 +8,9 @@ tags: ["go"]
 layout: "../../layouts/BlogPostLayout.astro"
 ---
 
-This post will show you how to use GitWit, an AI helper that automates the daily gruntwork of software development. It will guide you through the process of creating and running a full-stack app using an LLM to write the code. You can also check out the code produced for this example <a href="https://github.com/gitwitapp/doodle-app/" target="_blank">here</a>.
+This post will show you how to use GitWit, an AI helper that automates the daily gruntwork of software development. It will guide you through the process of creating and running a full-stack app using an LLM to write the code.
+
+You can also check out the code produced for this example <a href="https://github.com/gitwitapp/doodle-app/" target="_blank">here</a>.
 
 ## Generate a repository
 
